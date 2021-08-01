@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "4.10.0",
     "@material-ui/icons": "4.9.1",
+    "axios": "^0.21.1",
     "chartist": "0.10.1",
     "classnames": "2.2.6",
     "history": "4.10.1",
@@ -14,10 +15,16 @@
     "react-chartist": "0.14.3",
     "react-dom": "16.13.1",
     "react-google-maps": "9.4.5",
+    "react-hook-form": "^6.15.3",
+    "react-images-uploading": "^3.1.2",
+    "react-query": "^3.19.0",
     "react-router-dom": "5.2.0",
     "react-scripts": "3.4.1",
-    "react-swipeable-views": "0.13.9",
-    "serve": "^11.3.2"
+    "react-swipeable-views": "^0.14.0",
+    "recoil": "^0.3.1",
+    "recoil-persist": "^2.9.0",
+    "serve": "^11.3.2",
+    "yup": "^0.32.9"
   },
   "scripts": {
     "start": "serve -s build",
