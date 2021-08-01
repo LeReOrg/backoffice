@@ -49,6 +49,7 @@ export default function Sidebar(props) {
             to={prop.layout + prop.path}
             className={activePro + classes.item}
             activeClassName="active"
+            exact
             key={key}
           >
             <ListItem button className={classes.itemLink + listItemClasses}>
